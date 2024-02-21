@@ -4,8 +4,12 @@ p,
 a {
   margin: 0px;
   padding: 0px;
+  text-decoration: none;
 }
 
 .conteiner-principal {
-  background-image: url("");
+  background-image: url("../assets/imgs/background_Img.jpg");
+  max-width: 1200px;
+  max-height: 2000px;
+  font-family: "Roboto" sans-serif;
 }

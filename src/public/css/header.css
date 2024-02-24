@@ -1,23 +1,42 @@
 .conteiner-header {
-
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
 }
 
 .conteiner-header-nome {
-
+  padding: 10px 20px;
+  width: 80px;
+  height: 50px;
+  padding: 10px;
+  margin-top: 15px;
 }
 
 .header-nome {
-
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #F8F8F8;
+  font-size: 40px;
+  margin-left: 30px;
 }
 
 .header-navegacao {
-
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-top: 15px;
 }
 
 .navegacao {
-
+  
 }
 
 .navegacao-item {
-
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #F8F8F8;
+  margin: 20px;
+  padding: 10px;
 }

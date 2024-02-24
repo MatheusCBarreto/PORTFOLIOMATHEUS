@@ -1,11 +1,25 @@
 .conteiner-titulo {
-
+  display: flex;
+  height: 600px;
+  margin-top: 50px;
+  align-items: center;
 }
 
 .titulo-principal {
-
+  max-width: 700px;
+  height: 400px;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 .titulo {
-  
+  font-family: "Abhaya Libre", sans-serif;
+  font-size: 96px;
+  word-break: keep-all;
+  text-align: center;
+  text-shadow: 
+               -1px -1px 0px #FFF, 
+               -1px 1px 0px #FFF,      
+                1px -1px 0px #FFF,    
+                1px 0px 0px #FFF;
 }

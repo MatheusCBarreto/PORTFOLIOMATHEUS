@@ -1,3 +1,4 @@
+main,
 h1,
 h2,
 p,
@@ -9,7 +10,8 @@ a {
 
 .conteiner-principal {
   background-image: url("../assets/imgs/background_Img.jpg");
-  max-width: 1200px;
+  max-width: 1333px;
   max-height: 2000px;
   font-family: "Roboto" sans-serif;
+  margin: 0;
 }

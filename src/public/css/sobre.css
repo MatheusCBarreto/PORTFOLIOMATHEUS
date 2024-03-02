@@ -1,16 +1,52 @@
-.conteiner-sobre {
-
+#conteiner-sobre {
+  width: 1200px;
+  height: 475px;
+  backdrop-filter: blur(7px);
+  margin: 0 auto;
+}
+.conteiner-titulo-sobre {
+  display: flex;
+  justify-content: center;
 }
 
 .titulo-sobre {
+  font-family: "Abhaya Libre", sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  color: #FFF;
+  text-shadow: 
+               -1px -1px 0px #000, 
+               -1px 1px 0px #000,      
+                1px -1px 0px #000,    
+                1px 0px 0px #000;
+}
+
+.informacoes-texto {
+  display: flex;
+  flex-direction: row;
 
 }
 
 .sobre-informacoes {
-
+  max-width: 800px;
+  margin: 21px;
+  margin-left: 70px;
 }
 
-.primeiro-informacoes {
-
+.informacoes {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  color: #FFF;
+  margin-top: 21px;
 }
 
+.informacoes-perfil {
+  max-width: 300px;
+}
+
+.img-perfil {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  border: 5px solid #10647E;
+}

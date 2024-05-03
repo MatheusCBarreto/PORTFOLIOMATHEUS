@@ -1,3 +1,4 @@
+body,
 main,
 h1,
 h2,
@@ -9,8 +10,9 @@ a {
 }
 
 .conteiner-principal {
-  background-image: url("../assets/imgs/background_Img.jpg");
-  max-width: 1333px;
+  background: #F5F5F5;
+  background: linear-gradient(90deg, #F5F5F5, #F5F4FF);
+  max-width: 100vw;
   max-height: 2000px;
   font-family: "Roboto" sans-serif;
   margin: 0;
